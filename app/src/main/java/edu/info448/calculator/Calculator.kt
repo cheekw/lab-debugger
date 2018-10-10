@@ -48,8 +48,9 @@ class Calculator {
     /**
      * Multiply operation
      */
+    // Changed multiplication to multiply the value
     fun mul(operand: Double): Double {
-        value /= operand
+        value *= operand
         return value
     }
 }
